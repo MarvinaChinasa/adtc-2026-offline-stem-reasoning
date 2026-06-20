@@ -1,0 +1,14 @@
+[
+    {
+        "id": "adtc_math_001_algebra",
+        "prompt": "Solve for all real values of x: 3x^2 - 12x + 12 = 0. Show your step-by-step reasoning logic clearly."
+    },
+    {
+        "id": "adtc_math_002_calculus",
+        "prompt": "Find the critical points of the function f(x) = 2x^3 - 9x^2 + 12x - 5 and determine whether each point is a local maximum, local minimum, or inflection point."
+    },
+    {
+        "id": "adtc_math_003_sequences",
+        "prompt": "An arithmetic progression has a first term of a = 5 and a common difference of d = 3. Find the 15th term, and calculate the sum of the first 15 terms."
+    }
+]
