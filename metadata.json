@@ -1,0 +1,37 @@
+{
+  "team_id": "marvinachinasaawunor",
+  "domain": "math_scientific_reasoning",
+  "language_scope": ["en"],
+  "african_alpha_claim": true,
+  "budget_laptop_claim": true,
+  "submitter": {
+    "name": "Marvina Chinasa",
+    "email": "your_github_email@example.com",
+    "github_handle": "MarvinaChinasa"
+  },
+  "cross_disciplinary_pairing": {
+    "discipline": "education",
+    "load_bearing": true,
+    "description": "An offline, zero-marginal-cost STEM reasoning tutor providing premium mathematics and science guidance for low-spec hardware profiles in remote African schools."
+  },
+  "test_prompts": [
+    {
+      "prompt_id": "tp_001",
+      "prompt": "Solve for all real values of x: 3x^2 - 12x + 12 = 0. Show your step-by-step reasoning logic clearly."
+    },
+    {
+      "prompt_id": "tp_002",
+      "prompt": "An arithmetic progression has a first term of a = 5 and a common difference of d = 3. Find the 15th term, and calculate the sum of the first 15 terms."
+    }
+  ],
+  "model": {
+    "name": "DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M",
+    "runtime": "llama.cpp",
+    "quantization": "GGUF Q4_K_M",
+    "parameters_estimate": "1.5B",
+    "packaging": "binary_bundle"
+  },
+  "_runtime": {
+    "model_path": "model/deepseek-r1-distill-qwen-1.5b-q4_k_m.gguf"
+  }
+}
